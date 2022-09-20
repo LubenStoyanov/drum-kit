@@ -1,14 +1,15 @@
 import { useState } from "react";
 import "./App.css";
+import Composers from "./Composers.jsx";
 
 export default function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Searchbar />
+      {/*<Navbar />*/}
+      {/*<Searchbar />*/}
       <div>
-        <Sounds />
-        <Composers />
+        {/*<Sounds />*/}
+  		<Composers />
       </div>
     </div>
   );
