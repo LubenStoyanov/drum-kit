@@ -41,14 +41,19 @@ export default function Composers() {
         setRandomCI(Math.floor(Math.random() * composersList.length)) 
     } 
     return (
-        <div>
-            <figure className="composers_figure">
-                <img className="composers_img" src={composersList[randomCI].img}></img>
-                <figcaption className="composers_figcaption">{composersList[randomCI].name}</figcaption>
-            </figure>
-            <p className="composers_p">Was born on {composersList[randomCI].wasBorn} and became kinda cool guy, check out his masterpiece "{composersList[randomCI].masterpiece}"
-            </p>
-            <button className="composers_button" onClick={randomiseCI}>Check out some other cool dudes</button>
+        <div className="composers">
+            <div className="composers_left">
+                <img className="composers_photo" src={composersList[randomCI].img}></img>
+                <h3 className="composers_name">{composersList[randomCI].name}</h3>
+                <p className="composers_info">
+                    Was born on {composersList[randomCI].wasBorn} and became kinda cool guy, check out his masterpiece "{composersList[randomCI].masterpiece}"
+                </p>
+            </div>
+            <div className="composers_right">
+                <button className="composers_button" onClick={randomiseCI}>
+                    Check out some other cool dudes
+                </button>
+            </div>
         </div>
     )
 }

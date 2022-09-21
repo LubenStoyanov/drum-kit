@@ -1,0 +1,23 @@
+.composers {
+    display: flex;
+    justify-content: flex-start;
+    width: 15%;
+    border: 2px solid lightcoral;
+    gap: 5%;
+}
+
+.composers_left {
+    width: 75%;
+}
+.composers_right {
+    width: 20%;
+}
+
+.composers_photo {
+    width: 100%;
+}
+
+.composers_figcaption {
+    text-align: center;
+    font-size: 1.7rem;
+}
