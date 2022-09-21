@@ -35,6 +35,13 @@ const composersList = [
 
 ]
 
+const buttonList = ["C", "h", "e", "c", "k", "", "o", "u", "t", "", "o", "t", "h", "e", "r", "", "d", "u", "d", "e", "s"]
+
+function ComposersText() {
+    return (buttonList.map(letter => <li className="composers_li">{letter}</li>))
+    
+}
+
 export default function Composers() {
     const [randomCI, setRandomCI] = useState(0)
     const randomiseCI = () => {
@@ -51,7 +58,9 @@ export default function Composers() {
             </div>
             <div className="composers_right">
                 <button className="composers_button" onClick={randomiseCI}>
-                    Check out some other cool dudes
+                    <ul>
+                        <ComposersText />
+                    </ul>
                 </button>
             </div>
         </div>
