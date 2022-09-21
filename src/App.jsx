@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import Composers from "./Composers.jsx";
 
 export default function App() {
   return (
@@ -8,7 +9,7 @@ export default function App() {
       <Searchbar />
       <div>
         <Sounds />
-        <Composers />
+  		  <Composers />
       </div>
     </div>
   );
