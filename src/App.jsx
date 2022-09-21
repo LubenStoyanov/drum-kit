@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Navbar from "./Navbar.jsx";
 import Searchbar from "./Searchbar.jsx";
-import "./App.css";
 import Composers from "./Composers.jsx";
+import "./App.css";
 
 export default function App() {
   const [filterSound, setFilterSound] = useState("");
@@ -15,7 +15,7 @@ export default function App() {
         onFilterSoundChange={setFilterSound}
       />
       <div>
-        <Sounds />
+  		<Sounds />
         <Composers />
       </div>
     </div>

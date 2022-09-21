@@ -1,0 +1,54 @@
+.composers {
+    display: flex;
+    justify-content: flex-start;
+    width: 18%;
+    border: 2px solid lightcoral;
+    min-height: 441px;
+    box-shadow: 0 0 5px lightcoral;
+    margin: 10% 0 0 2%;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+.composers_left {
+    width: 80%;
+}
+.composers_right {
+    width: 20%;
+}
+
+.composers_photo {
+    width: 100%;
+    border-radius: 8px 0 0 0;
+}
+
+.composers_name {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0 5%;
+}
+
+.composers_info {
+    padding: 5%;
+}
+
+.composers_button {
+    height: 100%;
+    width: 100%;
+    background-color: beige;
+    border: none;
+    border-left: 2px solid lightcoral;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}   
+
+.composers_button:active {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 10px  crimson;
+}   
+
+.composers_li {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
