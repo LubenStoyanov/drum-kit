@@ -9,13 +9,11 @@ export default function App() {
 
   return (
     <div className="App">
-      <Navbar />
       <Searchbar
         filterSound={filterSound}
         onFilterSoundChange={setFilterSound}
       />
       <div>
-        <Sounds />
         <Composers />
       </div>
     </div>
