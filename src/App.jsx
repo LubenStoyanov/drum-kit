@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Navbar from "./Navbar.jsx";
 import Searchbar from "./Searchbar.jsx";
 import "./App.css";
 import Composers from "./Composers.jsx";

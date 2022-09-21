@@ -1,0 +1,69 @@
+body {
+    background-image: url('src/assets/background_540.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 20vh;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    min-width: 100%;
+    height: 160px;
+    /*background-color: hsl(0, 0%, 8%);*/
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.navbar li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    background-color: hsl(0, 92%, 72%);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin: 2rem;
+    border-radius: 50%;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    cursor: pointer;
+}
+
+.navbar li::before {
+    content: url('');
+    padding-top: 60px;
+}
+
+.navbar li:nth-child(2) {
+    background-image: url('src/assets/icon_drums_bw.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar li:nth-child(3) {
+    background-image: url('src/assets/icon_piano_bw.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar li:nth-child(4) {
+    background-image: url('src/assets/icon_violin_bw.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar li:hover,
+.navbar li:active,
+.navbar li:focus {
+    color: hsl(0, 92%, 72%);
+}
