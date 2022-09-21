@@ -6,7 +6,6 @@ export default function Searchbar(filterSound, onFilterSoundChange) {
           type="text"
           name="search-bar"
           id="search-bar"
-          value={filterSound}
           placeholder="Search for specific sound..."
           onChange={(e) => onFilterSoundChange(e.target.value)}
         />

@@ -6,16 +6,16 @@ import Composers from "./Composers.jsx";
 
 export default function App() {
   const drum = [
-    { name: "sound-1", file: "./sounds/drum-sound-1" },
-    { name: "sound-2", file: "./sound/drum-sound-2" },
+    { name: "sound1", file: "./sounds/drum-sound-1" },
+    { name: "sound2", file: "./sound/drum-sound-2" },
   ];
   const piano = [
-    { name: "sound-1", file: "./sounds/drum-sound-1" },
-    { name: "sound-2", file: "./sound/drum-sound-2" },
+    { name: "sound1", file: "./sounds/drum-sound-1" },
+    { name: "sound2", file: "./sound/drum-sound-2" },
   ];
   const violin = [
-    { name: "sound-1", file: "./sounds/drum-sound-1" },
-    { name: "sound-2", file: "./sound/drum-sound-2" },
+    { name: "sound1", file: "./sounds/drum-sound-1" },
+    { name: "sound2", file: "./sound/drum-sound-2" },
   ];
   const sounds = [drum, piano, violin];
 
@@ -23,11 +23,13 @@ export default function App() {
 
   return (
     <div className="App">
+      {/* <Navbar /> */}
       <Searchbar
         filterSound={filterSound}
         onFilterSoundChange={setFilterSound}
       />
       <div>
+        <div>{filterSound}</div>
         <Composers />
       </div>
     </div>
