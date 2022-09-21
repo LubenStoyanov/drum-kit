@@ -15,7 +15,7 @@ export default function App() {
         onFilterSoundChange={setFilterSound}
       />
       <div>
-  		{/*<Sounds />*/}
+  		<Sounds />
         <Composers />
       </div>
     </div>
