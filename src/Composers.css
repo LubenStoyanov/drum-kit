@@ -1,7 +1,7 @@
 .composers {
     display: flex;
-    justify-content: flex-start;
-    width: 18%;
+/*     justify-content: flex-start;
+    width: 18%; */
     border: 2px solid lightcoral;
     min-height: 441px;
     box-shadow: 0 0 5px lightcoral;
