@@ -56,4 +56,5 @@
 .composers_li {
     font-size: 0.7rem;
     font-weight: bold;
+    list-style-type: none;
 }
