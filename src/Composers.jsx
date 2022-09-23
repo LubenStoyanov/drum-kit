@@ -38,8 +38,11 @@ const composersList = [
 const buttonList = ["C", "h", "e", "c", "k", "", "o", "u", "t", "", "o", "t", "h", "e", "r", "", "d", "u", "d", "e", "s"]
 
 function ComposersText() {
-    return (buttonList.map(letter => <li className="composers_li">{letter}</li>))
-    
+    return (buttonList.map(letter => 
+        <li className="composers_li"> 
+            { letter === "" ? <br></br> : letter } 
+        </li>
+    ))
 }
 
 export default function Composers() {
