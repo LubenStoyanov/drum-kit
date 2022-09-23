@@ -35,6 +35,7 @@ h1 {
 }
 
 .flex-container-80 {
+  flex-wrap: wrap;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
