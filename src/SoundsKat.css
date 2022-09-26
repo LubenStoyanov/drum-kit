@@ -4,9 +4,11 @@
     justify-content: flex-start;
     align-items: center;
     width: 60%;
+    flex: 1 0 20%;
 }
 
 .item-sounds {
+    flex: 1 0 20%;
     font-size: 16px;
     color: hsl(0, 0%, 100%);
     background-color: hsl(0, 92%, 72%);

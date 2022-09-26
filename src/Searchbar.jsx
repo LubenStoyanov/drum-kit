@@ -1,9 +1,4 @@
-export default function Searchbar({ filterSound, onFilterSoundChange }) {
-  const handleInputField = (inputElement, inputValue) => {
-    onFilterSoundChange(inputValue);
-    inputElement.value = "";
-  };
-
+export default function Searchbar({ onFilterSoundChange }) {
   return (
     <div>
       <input
@@ -11,9 +6,7 @@ export default function Searchbar({ filterSound, onFilterSoundChange }) {
         name="search-bar"
         id="search-bar"
         placeholder="Search for specific sound..."
-        onKeyUp={(e) =>
-          e.key === "Enter" && handleInputField(e.target, e.target.value)
-        }
+        onChange={(e) => onFilterSoundChange("", e.target.value)}
       />
     </div>
   );

@@ -1,31 +1,33 @@
+export default [
+  { path: "drums/K01DHit-07.wav", filename: "drum-1", id: "drum-1", category: "drum" },
+  { path: "drums/K01DHit-06.wav", filename: "drum-2", id: "drum-2", category: "drum" },
+  { path: "drums/K01DHit-03.wav", filename: "drum-3", id: "drum-3", category: "drum" },
+  { path: "drums/K01DHit-05.wav", filename: "drum-4", id: "drum-4", category: "drum" },
+  { path: "drums/K01DHit-04.wav", filename: "drum-5", id: "drum-5", category: "drum" },
+  { path: "drums/K01DHit-01.wav", filename: "drum-6", id: "drum-6", category: "drum" },
+  { path: "drums/K01DHit-09.wav", filename: "drum-7", id: "drum-7", category: "drum" },
+  { path: "drums/K01DHit-08.wav", filename: "drum-8", id: "drum-8", category: "drum" },
+  { path: "drums/K01DHit-02.wav", filename: "drum-9", id: "drum-9", category: "drum" },
 
-export default 
-[
-  {
-    category: "Piano",
-    id: "0",
-    filename: "piano bflat",
-    path: "./sounds/drum-sound-1",
-  },
-  {
-    category: "Piano",
-    id: "1",
-    filename: "piano f#",
-    path: "./sound/drum-sound-2",
-  },
-  {
-    category: "Violin",
-    id: "2",
-    filename: "violin f",
-    path: "./sounds/drum-sound-3",
-  },
-  {
-    category: "Violin",
-    id: "3",
-    filename: "violin c",
-    path: "./sound/drum-sound-4",
-  },
-  { category: "Drum", id: "5", filename: "kick", path: "./sounds/kick" },
-  { category: "Drum", id: "6", filename: "snare", path: "./sound/snare" },
-  ];
+{path: "piano/key01.mp3",  filename: "piano-1",  id: "piano-1", category: "piano"},
+{path: "piano/key02.mp3",  filename: "piano-2",  id: "piano-2", category: "piano"},
+{path: "piano/key03.mp3",  filename: "piano-3",  id: "piano-3", category: "piano"},
+{path: "piano/key04.mp3",  filename: "piano-4",  id: "piano-4", category: "piano"},
+{path: "piano/key05.mp3",  filename: "piano-5",  id: "piano-5", category: "piano"},
+{path: "piano/key06.mp3",  filename: "piano-6",  id: "piano-6", category: "piano"},
+{path: "piano/key07.mp3",  filename: "piano-7",  id: "piano-7", category: "piano"},
+{path: "piano/key08.mp3",  filename: "piano-8",  id: "piano-8", category: "piano"},
+{path: "piano/key09.mp3",  filename: "piano-9",  id: "piano-9", category: "piano"},
+{path: "piano/key10.mp3",  filename: "piano-10", id: "piano-10", category: "piano"},
+{path: "356137__mtg__violin-a5.wav",      filename: "violin-a5",  id: "violin-a5",  category: "violin"},
+{path: "356181__mtg__violin-d5.wav",      filename: "violin-d5",  id: "violin-d5",  category: "violin"},
+{path: "356168__mtg__violin-b4.wav",      filename: "violin-b4",  id: "violin-b4",  category: "violin"},
+{path: "356138__mtg__violin-csharp6.wav", filename: "violin-c#5", id: "violin-c#5",  category: "violin"},
+{path: "356136__mtg__violin-dsharp5.wav", filename: "violin-d#5", id: "violin-d#5",  category: "violin"},
+{path: "356176__mtg__violin-gsharp4.wav", filename: "violin-g#4", id: "violin-g#4",  category: "violin"},
+{path: "356179__mtg__violin-csharp6.wav", filename: "violin-c#6", id: "violin-c#6",  category: "violin"},
+{path: "356166__mtg__violin-e6.wav",      filename: "violin-e6",  id: "violin-e6",  category: "violin"},
+{path: "356180__mtg__violin-a4.wav",      filename: "violin-a4",  id: "violin-a4",  category: "violin"},
+{path: "356145__mtg__violin-f4.wav",      filename: "violin-f4",  id: "violin-f4",  category: "violin"},
+];
 
